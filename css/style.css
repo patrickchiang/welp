@@ -1,0 +1,15 @@
+.container {
+	margin-top: 20%;
+	max-width: 500px;
+}
+
+.advanced {
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #333;
+}
+
+.advanced:hover {
+	color: #333;
+}
