@@ -1,6 +1,10 @@
 .container {
-	margin-top: 20%;
-	max-width: 500px;
+	margin-top: 15%;
+	max-width: 700px;
+}
+
+a.advanced {
+	outline: 0;
 }
 
 .advanced {
@@ -14,5 +18,45 @@
 	color: #333;
 }
 
-.settings {
+.input-group, .form-control, .btn {
+	height: 1.5em;
+	line-height: 1em;
+	font-size: 40px;
 }
+
+.settings {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.list-group-item {
+	cursor: pointer;
+}
+
+.setting-item {
+	margin-left: 14px;
+}
+
+label {
+	font-weight: normal;
+}
+
+.autocomplete-suggestions {
+	border: 1px solid #999;
+	background: #FFF;
+	overflow: auto;
+}
+.autocomplete-suggestion {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.autocomplete-selected {
+	background: #F0F0F0;
+}
+.autocomplete-suggestions strong {
+	font-weight: normal;
+	color: #3399FF;
+}
+

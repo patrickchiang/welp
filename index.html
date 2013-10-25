@@ -6,6 +6,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
 		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/jquery.autocomplete.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/index.js"></script>
 	</head>
@@ -13,17 +14,69 @@
 		<div class="container">
 			<h1>Hello, Welp!</h1>
 			<div class="input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-default random" type="button">
+						W
+					</button></span>
+
 				<input type="text" class="form-control">
 				<span class="input-group-btn">
 					<button class="btn btn-default" type="button">
 						Go!
-					</button>
-					<button class="btn btn-default random" type="button">
-						W
 					</button> </span>
 			</div>
+
 			<a href="#" class="advanced">Advanced Settings</a>
-			<div class="well settings">Here are the advanced settings</div>
+			<div class="well settings">
+				<ul class="list-group">
+					<div class="row">
+						<div class="col-md-6">
+							<li class="list-group-item">
+								<input type="checkbox" id="credit-card">
+								<span class="setting-item">Credit Card</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Delivery</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Vegan/Vegetarian</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Open Now</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Wi-fi</span>
+							</li>
+						</div>
+						<div class="col-md-6">
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Placeholder</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Placeholder</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Placeholder</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Placeholder</span>
+							</li>
+							<li class="list-group-item">
+								<input type="checkbox">
+								<span class="setting-item">Placeholder</span>
+							</li>
+						</div>
+					</div>
+				</ul>
+			</div>
 		</div>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
