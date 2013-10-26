@@ -112,4 +112,6 @@ function formatResult(i, val) {
         dollars += "<i class=\"fa fa-usd\"></i>";
     }
     entry.find(".pricing").html(dollars);
+
+    entry.attr("href", "#" + val.name.replace(/\s+/, "-"));
 }
