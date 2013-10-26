@@ -3,19 +3,10 @@
 	max-width: 700px;
 }
 
-a.advanced {
-	outline: 0;
-}
-
-.advanced {
-	display: block;
-	margin-top: 20px;
+.settings {
+	margin-top: 10px;
 	margin-left: 20px;
-	color: #333;
-}
-
-.advanced:hover {
-	color: #333;
+	margin-right: 20px;
 }
 
 .input-group, .form-control, .btn {
@@ -24,39 +15,10 @@ a.advanced {
 	font-size: 40px;
 }
 
-.settings {
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.list-group-item {
-	cursor: pointer;
-}
-
-.setting-item {
-	margin-left: 14px;
-}
-
-label {
-	font-weight: normal;
-}
-
 .autocomplete-suggestions {
-	border: 1px solid #999;
-	background: #FFF;
-	overflow: auto;
-}
-.autocomplete-suggestion {
-	padding: 2px 5px;
-	white-space: nowrap;
-	overflow: hidden;
-}
-.autocomplete-selected {
-	background: #F0F0F0;
-}
-.autocomplete-suggestions strong {
-	font-weight: normal;
-	color: #3399FF;
+	font-size: 2em;
 }
 
+.results {
+	display: none;
+}

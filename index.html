@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Bootstrap 101 Template</title>
+		<title>Welp</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/searchbar.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="js/jquery.autocomplete.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -13,17 +15,19 @@
 	<body>
 		<div class="container">
 			<h1>Hello, Welp!</h1>
-			<div class="input-group">
-				<span class="input-group-btn">
-					<button class="btn btn-default random" type="button">
-						W
-					</button></span>
+			<div class="searchbar">
+				<div class="input-group">
+					<span class="input-group-btn">
+						<button class="btn btn-default random" type="button">
+							W
+						</button></span>
 
-				<input type="text" class="form-control">
-				<span class="input-group-btn">
-					<button class="btn btn-default" type="button">
-						Go!
-					</button> </span>
+					<input type="text" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button" id="search">
+							Go!
+						</button> </span>
+				</div>
 			</div>
 
 			<a href="#" class="advanced">Advanced Settings</a>
@@ -77,6 +81,38 @@
 					</div>
 				</ul>
 			</div>
+		</div>
+		<div class="results">
+			<div class="sortby">
+				Sort by <a href="#rating">Rating</a> | <a href="#price">Price</a> | <a href="#reviews"># of Reviews</a>
+			</div>
+			<div class="empty">
+				
+			</div>
+			<ul class="list-group results-group">
+				<a href="#" class="list-group-item template">
+				<div class="name">
+					1. University Teriyaki
+				</div>
+				<div class="details">
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<div class="pricing">
+						<i class="fa fa-usd"></i>
+					</div>
+					<div class="hours">
+						10:00am - 10:00pm
+					</div>
+					<div class="reviews">
+						20 reviews
+					</div>
+				</div> </a>
+			</ul>
 		</div>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
