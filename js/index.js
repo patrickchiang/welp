@@ -60,6 +60,9 @@ function displayResults(data) {
     } else {
         $(".empty").html("");
     }
+
+    $(".results .list-group-item:not(.template)").remove();
+
     $.each(results, formatResult);
 
     $(".form-control").blur();
