@@ -3,18 +3,36 @@ $query = $_GET["query"];
 
 class Details {
     public $name = "";
+    public $address = "";
+    public $phone = "";
+    public $website = "";
+    public $menu = "";
+    
+    public $reviews = array();
+    public $photos = array();
+    
+    public $hours = array(
+        "sun" => "",
+        "mon" => "",
+        "tue" => "",
+        "wed" => "",
+        "thu" => "",
+        "fri" => "",
+        "sat" => "",
+    );
+}
+
+class Review {
+    public $user = "";
+    public $review = "";
     public $rating = 0;
     public $pricing = 0;
-    public $hours = "";
-    public $reviews = 0;
+}
 
-    function __construct($name, $rating, $pricing, $hours, $reviews) {
-        $this -> name = $name;
-        $this -> rating = $rating;
-        $this -> pricing = $pricing;
-        $this -> hours = $hours;
-        $this -> reviews = $reviews;
-    }
+class Photo {
+    public $url = "";
+    public $owner = "";
+    public $caption = "";
 }
 
 

@@ -119,5 +119,9 @@ function formatResult(i, val) {
 
 function showPage() {
     var name = $(this).attr("href").split("#")[1];
+    $.get("page.php?name=" + name, displayPage);
+}
+
+function displayPage() {
     
 }
