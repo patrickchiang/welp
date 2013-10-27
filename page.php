@@ -1,7 +1,4 @@
 <?php
-
-include "db.php";
-
 $query = $_GET["name"];
 
 class Details {
