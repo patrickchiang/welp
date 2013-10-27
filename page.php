@@ -1,5 +1,8 @@
 <?php
-$query = $_GET["query"];
+
+include "db.php";
+
+$query = $_GET["name"];
 
 class Details {
     public $name = "";

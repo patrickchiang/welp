@@ -1,4 +1,4 @@
-var results;
+var results, pageInfo;
 
 $(function() {
 
@@ -122,6 +122,6 @@ function showPage() {
     $.get("page.php?name=" + name, displayPage);
 }
 
-function displayPage() {
-    
+function displayPage(data) {
+    pageInfo = JSON.parse(data);
 }
