@@ -82,33 +82,3 @@ h1 {
 .empty {
 	margin: 5px;
 }
-
-.showpage {
-	margin-left: 20px;
-}
-
-.showpage .rating,
-.showpage .pricing {
-	font-size: 1.2em;
-	margin-bottom: 0.5em;
-}
-
-.showpage .nrRatings {
-	margin-left: 2em;
-}
-
-.showpage .category,
-.showpage .address,
-.showpage .phone {
-	font-size: 1.3em;
-}
-
-.photos img {
-	margin: 2em;
-}
-
-.showpage .map {
-	float: right;
-	margin: 20px;
-	clear: both;
-}

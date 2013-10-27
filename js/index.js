@@ -51,6 +51,7 @@ function search() {
     $(".form-control").focus();
     $.get("search.php?query=" + $(".form-control").val(), displayResults);
     $("link[href=\"css/style.css\"]").attr("href", "css/search.css");
+    $("link[href=\"css/showpage.css\"]").attr("href", "css/none.css");
 }
 
 function displayResults(data) {
@@ -119,9 +120,10 @@ function formatResult(i, val) {
 
 function showPage() {
     var name = $(this).attr("href").split("#")[1];
-    $.get("page.php?name=" + name, displayPage);
+    //$.get("page.php?name=" + name, displayPage);
+    $("link[href=\"css/none.css\"]").attr("href", "css/showpage.css");
 }
 
 function displayPage(data) {
-    pageInfo = JSON.parse(data);
+    //pageInfo = JSON.parse(data);
 }
