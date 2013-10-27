@@ -82,3 +82,7 @@ h1 {
 .empty {
 	margin: 5px;
 }
+
+.showpage {
+	display: none;
+}

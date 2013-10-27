@@ -114,4 +114,10 @@ function formatResult(i, val) {
     entry.find(".pricing").html(dollars);
 
     entry.attr("href", "#" + val.name.replace(/\s+/, "-"));
+    entry.click(showPage);
+}
+
+function showPage() {
+    var name = $(this).attr("href").split("#")[1];
+    
 }
