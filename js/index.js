@@ -95,7 +95,7 @@ function sortData(sortType) {
 
 function formatResult(i, val) {
     var entry = $(".template").clone().removeClass("template").appendTo(".results-group");
-    entry.find(".name").html(i + 1 + ". " + val.name);
+    entry.find(".name").html(val.name);
     entry.find(".hours").html(val.hours);
     entry.find(".reviews").html(val.reviews + " reviews");
 
