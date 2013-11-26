@@ -72,6 +72,7 @@ h1 {
 
 .sortby {
 	margin: 15px;
+	text-align: right;
 }
 
 .sortby a {

@@ -26,3 +26,9 @@
 .showpage {
 	display: none;
 }
+
+.container > .logo {
+	width: 50%;
+	float: none;
+	margin: 0px;
+}
