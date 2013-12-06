@@ -43,7 +43,7 @@ a.advanced {
 	outline: 0;
 }
 
-.advanced {
+.advanced, .explore {
 	display: block;
 	margin-top: 20px;
 	margin-left: 20px;
@@ -57,4 +57,16 @@ a.advanced {
 
 .well {
 	clear: both;
+}
+
+#search {
+	background-color: #ccc;
+}
+
+.fa-star {
+	color: purple;
+}
+
+.fa-usd {
+	color: gold;
 }

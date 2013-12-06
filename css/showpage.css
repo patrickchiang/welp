@@ -3,7 +3,7 @@
 }
 
 .showpage {
-	margin-left: 20px;
+	margin-left: 100px;
 }
 
 .showpage .rating, .showpage .pricing {
@@ -11,12 +11,26 @@
 	margin-bottom: 0.5em;
 }
 
+.showpage h2 {
+	font-size: 4em;
+}
+
+.showpage .pricing, .rating, .showpage h2 {
+	margin-left: 30%;
+	text-align: center;
+}
+
 .showpage .nrRatings {
 	margin-left: 2em;
 }
 
-.showpage .category, .showpage .address, .showpage .phone {
+.showpage .category, .showpage .address, .showpage .phone, .row {
 	font-size: 1.3em;
+	margin-left: 100px;
+}
+
+.row {
+	margin: 0px;
 }
 
 .photos img {
@@ -26,6 +40,7 @@
 .showpage .map {
 	float: right;
 	margin: 20px;
+	margin-top: 100px;
 	clear: both;
 }
 
@@ -35,10 +50,43 @@
 }
 
 .showpage .more {
-	margin: 10px;
+	clear: both;
+	margin-bottom: 30px;
 }
 
 .showpage .more a {
 	color: #333;
 	font-size: 1.5em;
+}
+
+.submit-review {
+	margin-left: 20px;
+	font-size: 18pt;
+	margin-top: -8px;
+}
+
+.info, .hours {
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+}
+
+.info {
+	padding-left: 100px;
+}
+
+.reviews {
+	clear: both;
+}
+
+h3 {
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.reviews > .col-lg-5 {
+	margin-left: 0px;
+	margin-right: 20px;
+	padding: 0px;
 }
